@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+html,body{
+ height: 100%;
+ width: 100%;
+ background-color: bisque;
+ 
+}
+
+h1{
+    color: brown;
+    font-size: 3vmax;
+    text-align: center;
+    padding: 2vw;
+}
+
+.about-br{
+    height: 1px;
+    width: 80vw;
+    background-color: brown;
+    margin-left: 10vw;
+}
+
+.home-cnt{
+    background-color: brown;
+    width: 80vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    border-radius: 2vw;
+}
+
+.home-cnt p{
+    color: bisque;
+    font-size: 2vmax;
+    text-align: center;
+    padding: 2vw;
+}
+
+@media  screen and (max-width: 320px){
+    .home-cnt{
+        margin-top: 15vw;
+    }
+
+    .home-cnt p{
+        font-size: 3vmax;
+    }
+}
